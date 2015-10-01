@@ -15,4 +15,10 @@ $(document).ready(function(){
     $("h2").css("color", "red");
   });
 
+  $(".clickable").click(function(){
+    $(".shown").fadeToggle();
+    $(".hidden").fadeToggle();
+  });
+
+
 }); //closing document ready function
