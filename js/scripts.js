@@ -11,4 +11,8 @@ $(document).ready(function(){
     alert("This is an image.");
   });
 
+  $("h2").click(function(){
+    $("h2").css("color", "red");
+  });
+
 }); //closing document ready function
